@@ -1,25 +1,27 @@
-# Axion-AOSP-v2.4-SOLACE-for-spaced-Initial-Build
-Just my first time building rom.
-
 ## Overview
 This is the second unofficial test build of Axion AOSP v2.4-SOLACE for the Realme Spaced. This release marks a significant milestone in device bring-up, with core hardware components now operational.
 
 ## What's Working
-- ✅ **System Boot:** The build successfully boots to a usable home screen environment.
-- ✅ **Display:** Full resolution display and graphics acceleration are active.
-- ✅ **Camera:** The primary camera hardware is now correctly initialized and operational.
-- ✅ **Performance:** Integrated kernel optimizations ensure a responsive user experience.
-- ✅ **GPU:** Graphics drivers are correctly loaded and functioning as expected.
+- ✅ **System Boot:** Successfully boots to home screen.
+- ✅ **Display:** Full graphics acceleration active.
+- ✅ **Camera:** Hardware initialized and operational.
+- ✅ **GPU:** Mali GLES drivers functioning.
 
-## Device Status
-The build is currently in a "Stable Beta" state. Most primary hardware functions are confirmed working, making this build suitable for further testing and everyday basic use. 
+## ⚠️ Installation Instructions (Clean Flash Required)
+To ensure system stability and avoid library conflicts, a **clean flash is mandatory** for this build.
+
+1. **Reboot** to your preferred custom recovery.
+2. **Flash the ROM:** Sideload or install the `axion-2.4-SOLACE-20260203-UNOFFICIAL-GMS-spaced.zip`.
+3. **Format Data:** You must navigate to `Wipe` > `Format Data` and type `yes`. 
+   * *Note: This will erase all internal storage. Back up your files!*
+4. **Reboot to System.**
 
 ## Known Issues & Notes
-- [cite_start]**Performance Tuning:** You may encounter minor UI micro-stutters during heavy multitasking or 4K video recording due to ongoing performance node permission tuning[cite: 32986].
-- [cite_start]**Media Codecs:** Some advanced media playback configurations may require further optimization[cite: 32986].
-- [cite_start]**Testing Required:** As an unofficial test build, users are encouraged to report any specific app crashes or hardware anomalies with accompanying logs[cite: 32986].
+- **Performance:** Minor UI stutters may occur during 4K recording due to ongoing `libperfmgr` permission tuning.
+- **Initial Setup:** The first boot may take 2-5 minutes as the system initializes.
+- **Reporting:** Please provide a full logcat if you encounter crashes.
 
 ---
-**Build Type:** Unofficial Test
-**Android Version:** 14 (AOSP)
-**Security Patch:** February 2026
+**Build Type:** Unofficial Initial Build
+**Android Version:** 16 - QPR1
+**Security Patch:** February 3,2026
