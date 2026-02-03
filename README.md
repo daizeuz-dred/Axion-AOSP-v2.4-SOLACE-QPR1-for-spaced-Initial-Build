@@ -1,3 +1,6 @@
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/16ebe19a-8b6c-470d-9ead-a50a31c4c969" />
+
+
 ## Overview
 This is the second unofficial test build of Axion AOSP v2.4-SOLACE for the Realme Spaced. This release marks a significant milestone in device bring-up, with core hardware components now operational.
 
