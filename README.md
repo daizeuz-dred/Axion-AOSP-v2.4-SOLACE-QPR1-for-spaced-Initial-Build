@@ -14,7 +14,7 @@ This is the second unofficial test build of Axion AOSP v2.4-SOLACE for the Realm
 To ensure system stability and avoid library conflicts, a **clean flash is mandatory** for this build.
 
 1. **Reboot** to your preferred custom recovery.
-2. **Flash the ROM:** Sideload or install the `axion-2.4-SOLACE-20260203-UNOFFICIAL-GMS-spaced.zip`.
+2. **Flash the ROM:** Sideload or install the `axion-2.4-SOLACE-20260205-UNOFFICIAL-GMS-spaced.zip`.
 3. **Format Data:** You must navigate to `Wipe` > `Format Data` and type `yes`. 
    * *Note: This will erase all internal storage. Back up your files!*
 4. **Reboot to System.**
