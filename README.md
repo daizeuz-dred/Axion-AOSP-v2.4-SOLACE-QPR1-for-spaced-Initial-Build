@@ -1,30 +1,47 @@
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/16ebe19a-8b6c-470d-9ead-a50a31c4c969" />
 
 
-## Overview
-This is the second unofficial test build of Axion AOSP v2.4-SOLACE for the Realme Spaced. This release marks a significant milestone in device bring-up, with core hardware components now operational.
-
-## What's Working
-- ✅ **System Boot:** Successfully boots to home screen.
-- ✅ **Display:** Full graphics acceleration active.
-- ✅ **Camera:** Hardware initialized and operational.
-- ✅ **GPU:** Mali GLES drivers functioning.
-
-## ⚠️ Installation Instructions (Clean Flash Required)
-To ensure system stability and avoid library conflicts, a **clean flash is mandatory** for this build.
-
-1. **Reboot** to your preferred custom recovery.
-2. **Flash the ROM:** Sideload or install the `axion-2.4-SOLACE-20260205-UNOFFICIAL-GMS-spaced.zip`.
-3. **Format Data:** You must navigate to `Wipe` > `Format Data` and type `yes`. 
-   * *Note: This will erase all internal storage. Back up your files!*
-4. **Reboot to System.**
-
-## Known Issues & Notes
-- **Performance:** Minor UI stutters may occur during 4K recording due to ongoing `libperfmgr` permission tuning.
-- **Initial Setup:** The first boot may take 2-5 minutes as the system initializes.
-- **Reporting:** Please provide a full logcat if you encounter crashes.
+## 📱 Axion AOSP v2.4 - SOLACE - QPR1
+**Device:** Realme 8i / Narzo 50 (spaced)
+**Build Date:** Feb 05, 2026
+**Status:** Stable 
 
 ---
-**Build Type:** Unofficial Initial Build
+
+## 📝 Description
+This build brings Axion AOSP to the Realme Spaced with core hardware functionality now active. This release resolves the critical camera crash loop and includes kernel optimizations for improved system response.
+
+## ✅ What's Working
+- **System:** Successfully boots and passes initial setup.
+- **Display:** Full graphics acceleration (Mali GPU).
+- **Biometrics:** **Fingerprint sensor is operational** (Verified via BiometricService).
+- **Camera:** **Fully Functional.** Fixed the `libbinder-v32` linker error that caused the camera service to crash.
+- **Performance:** Integrated kernel header fixes (`sched.h`) and scheduling tweaks.
+- **Connectivity:** Wi-Fi, Bluetooth, and RIL.
+
+## ⚠️ Installation Instructions (Clean Flash Required)
+A clean flash is mandatory to ensure all new vendor libraries load correctly.
+
+1. **Reboot** to Custom Recovery.
+2. **Format Data:** Go to Wipe -> **Format Data** -> type `yes`.
+*(Required to handle new encryption and vendor paths)*.
+3. **Wipe:** Cache and Metadata.
+4. **Flash:** ROM `.zip`.
+5. **Reboot:** System.
+
+## 🪲 Known Bugs
+- **Bugs:** You tell me and get logs.
+
+## ✅ Changelogs
+- **Kernel:** Switched to Nebula Prime+ by @HELLINFIX.
+ - **Lag fix:** Adjusted blur resolution divisor for improved frame stability in heavy UI elements.
+ -** Visuals:** Implemented Squircle-style Recents with a 32dp corner radius.
+- **Power Management:** Enabled native battery percentage toggle in System Settings.
+- **Stability:** Integrated core kernel header fixes for improved system response.
+
+---
+**Build Version:** 2.4-SOLACE-UNOFFICIAL
 **Android Version:** 16 - QPR1
-**Security Patch:** February 3,2026
+**Maintainer:** DEEZNUTZ
+
+Credits: Huge thanks to @HELLINFIX for trees and tweaks! 🫡🔥
