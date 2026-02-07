@@ -3,7 +3,7 @@
 
 ## 📱 Axion AOSP v2.4 - SOLACE - QPR1
 **Device:** Realme 8i / Narzo 50 (spaced)
-**Build Date:** Feb 05, 2026
+**Build Date:** Feb 06, 2026
 **Status:** Stable | Beta
 
 ---
