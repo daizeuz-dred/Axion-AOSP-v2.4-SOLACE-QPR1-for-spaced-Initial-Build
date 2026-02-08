@@ -32,6 +32,7 @@ A clean flash is mandatory to ensure all new vendor libraries load correctly.
 -  If there's more then you tell me and send me proper logs.**
 
  ✅ Changelogs
+- Kernel is integrated with KernelSU Next v1
 - Kernel: Switched to Nebula Prime+ by @HELLINFIX.
 - Lag fix: Adjusted blur resolution divisor for improved frame stability in heavy UI elements.
 - Ram Management: Improve the ram management.
