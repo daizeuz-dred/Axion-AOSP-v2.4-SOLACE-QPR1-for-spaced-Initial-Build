@@ -34,7 +34,6 @@ A clean flash is mandatory to ensure all new vendor libraries load correctly.
 
 
  ✅ Changelogs
-- Kernel is integrated with KernelSU Next v1
 - Kernel: Switched to 4.19.325-cip128-st12-Nebula-prime+ by @HELLINFIX.
 - Lag fix: Adjusted blur resolution divisor for improved frame stability in heavy UI elements.
 - Ram Management: Improve the ram management.
