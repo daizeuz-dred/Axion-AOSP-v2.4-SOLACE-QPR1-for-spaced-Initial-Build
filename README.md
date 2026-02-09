@@ -2,11 +2,8 @@
 
 
 📱 Axion AOSP v2.4 - SOLACE - QPR1
-
 Device: Realme 8i / Narzo 50 (spaced)
-
 Build Date: Feb 09, 2026
-
 Status: Stable | Beta
 
 ✅ What's Working
@@ -27,13 +24,13 @@ A clean flash is mandatory to ensure all new vendor libraries load correctly.
 4. Flash: ROM `.zip`.
 5. Reboot: System.
 
- 🪲 Known Bugs
+🪲 Known Bugs
 - Whatsapp & Snapchat not working: Still haven't found any fix for this.
 - Also the server will be expired, don't have much time to find any fixes.
--  If there's more then you tell me and send me proper logs.**
+- If there's more then you tell me and send me proper logs.**
 
-
- ✅ Changelogs
+✅ Changelogs
+- Screen flickering is fixed.
 - Kernel: Switched to 4.19.325-cip128-st12-Nebula-prime+ by @HELLINFIX.
 - Lag fix: Adjusted blur resolution divisor for improved frame stability in heavy UI elements.
 - Ram Management: Improve the ram management.
@@ -44,5 +41,6 @@ Build Version: 2.4-SOLACE-UNOFFICIAL
 Android Version: 16 - QPR1
 Maintainer: DEEZNUTZ
 
-Credits: Huge thanks to @HELLINFIX for trees and tweaks! 🫡🔥
+Credits: Huge thanks to @HELLINFIX for treesz helping and for this 🔥 kernel ! 🫡
+
 
