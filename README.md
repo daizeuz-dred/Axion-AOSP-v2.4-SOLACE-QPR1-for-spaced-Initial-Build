@@ -5,7 +5,7 @@
 
 Device: Realme 8i / Narzo 50 (spaced)
 
-Build Date: Feb 07, 2026
+Build Date: Feb 09, 2026
 
 Status: Stable | Beta
 
@@ -29,11 +29,13 @@ A clean flash is mandatory to ensure all new vendor libraries load correctly.
 
  🪲 Known Bugs
 - Whatsapp & Snapchat not working: Still haven't found any fix for this.
+- Also the server will be expired, don't have much time to find any fixes.
 -  If there's more then you tell me and send me proper logs.**
+
 
  ✅ Changelogs
 - Kernel is integrated with KernelSU Next v1
-- Kernel: Switched to Nebula Prime+ by @HELLINFIX.
+- Kernel: Switched to 4.19.325-cip128-st12-Nebula-prime+ by @HELLINFIX.
 - Lag fix: Adjusted blur resolution divisor for improved frame stability in heavy UI elements.
 - Ram Management: Improve the ram management.
 - Stability: Integrated core kernel header fixes for improved system response.
@@ -45,5 +47,3 @@ Maintainer: DEEZNUTZ
 
 Credits: Huge thanks to @HELLINFIX for trees and tweaks! 🫡🔥
 
-RECOMMENDED KERNEL IS ALSO UPLOADED!
-Nebula Prime +
